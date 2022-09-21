@@ -1,0 +1,60 @@
+﻿* {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #0c243c;
+}
+
+body{
+    background-image:url("../Images/Amenities-Fitness-bg-min.jpg")
+}
+
+#navBar {
+    background-color: #0c243c
+}
+
+nav#navBar .btn-link {
+    color: #c9d1d5
+}
+
+#authentication {
+    float: right;
+}
+
+#redirect {
+    float: left;
+}
+
+#message {
+    color: #7e8c9c;
+}
+
+.btn-default {
+    background-color: #0c243c;
+    color: #c9d1d5
+}
+
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+fieldset {
+    border: 4px inset #55c2c3;
+    padding: 5px;
+    width: 500px;
+}
+
+.Greska {
+    color: #8b0000
+}

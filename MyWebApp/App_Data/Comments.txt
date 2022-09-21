@@ -1,0 +1,4 @@
+1;cimcim;EUROSPORT1;Super teretana super sprave;4;True
+25161;sima;EUROSPORT1;i%newline%nije neka;2;True
+80817;zivka;EUROSPORT1;nije lose moze bolje;3;False
+7020;sima;Non Stop2;Pisi jako %newline%dobra teretana.;5;True

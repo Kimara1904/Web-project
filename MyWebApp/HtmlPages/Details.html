@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/Details.js"></script>
+    <script src="../Scripts/ComebackOnIndex.js"></script>
+    <script src="../Scripts/RedirectAuthentication.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/DefaultStyle.css" rel="stylesheet" />
+    <link href="../Content/Comment.css" rel="stylesheet" />
+    <link href="../Images/supplement-icon-14.jpg" rel="icon" />
+    <title>Details</title>
+</head>
+<body>
+    <nav class="navbar navbar-default" id="navBar">
+        <div class="container-fluid">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div id="redirect">
+                    <a class="navbar-brand" id="message"></a>
+                    <button id="Index" class="btn btn-link navbar-btn">Vratite se na pocetnu stranu</button>
+                </div>
+                <div id="authentication">
+                    <input type="submit" class="btn btn-link navbar-btn" id="Register" value="Registruj se" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="Login" value="Prijavi se" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="Logout" value="Odjavi se" />
+                </div>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <h2>Detalji</h2>
+    <div id="Details"></div>
+    <h2>Lista treninga</h2>
+    <div id="GroupTrainings"></div>
+    <h2>Komentari</h2>
+    <div id="AddComments">
+        <form id="AddComment">
+            <h3>Dodaj komentar</h3>
+            <textarea name="NewComment"></textarea>
+            <br />
+            <label class="Greska" id="NewComment"></label>
+            <br />
+            <label class="ratelabel">1</label>
+            <label class="ratelabel">2</label>
+            <label class="ratelabel">3</label>
+            <label class="ratelabel">4</label>
+            <label class="ratelabel">5</label>
+            <br />
+            <input type="range" name="rate" />
+            <br />
+            <input type="submit" class="btn btn-default" value="Dodaj komentar" />
+        </form>
+    </div>
+    <div id="Comments"></div>
+</body>
+</html>

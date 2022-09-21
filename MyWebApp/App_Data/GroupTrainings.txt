@@ -1,0 +1,9 @@
+Yoga za pocetnike1;Yoga za pocetnike;YOGA;EUROSPORT1;120;2022-10-03T08:00:00;20;False;3;sima;cimcim;zivka
+Yoga za iskusne2;Yoga za iskusne;YOGA;EUROSPORT1;60;2022-05-03T11:00:00;20;False;1;cimcim
+Dead Lift1;Dead Lift;BODY_PUMP;EUROSPORT1;60;2022-05-03T18:00:00;20;False;1;cimcim
+Hiit trening3;Hiit trening;LES_MILLS_TONE;Non Stop2;30;2017-08-17T18:00:00;15;False;1;cimcim
+Benc488358;Benc;BODY_PUMP;EUROSPORT1;120;2022-07-22T21:23:00;30;False;1;sima
+sadasda903221;Cardio;LES_MILLS_TONE;EUROSPORT1;30;2022-07-28T21:29:00;10;True;0
+Cardio1106;Cardio;LES_MILLS_TONE;Body and pump6278;120;2022-07-14T21:45:00;30;False;0
+Bicikl874099;Bicikl;LES_MILLS_TONE;Non Stop2;60;2022-07-22T11:55:00;15;False;1;sima
+Cucnjevi sa tegovima816438;Vezbe snage;LES_MILLS_TONE;EUROSPORT1;30;2022-07-21T22:06:00;10;False;0

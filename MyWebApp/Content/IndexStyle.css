@@ -1,0 +1,16 @@
+﻿#Filter{
+    float: left;
+    margin-left: 2px;
+    display: inline-block;
+}
+
+#FitnessCenterTable {
+    position: absolute;
+    left: 50%;
+    display: block;
+}
+
+#title {
+    left: 50%;
+    display: block;
+}

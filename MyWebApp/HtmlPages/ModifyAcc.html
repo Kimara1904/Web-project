@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/ModifyUser.js"></script>
+    <script src="../Scripts/ComebackOnIndex.js"></script>
+    <script src="../Scripts/RedirectAuthentication.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/DefaultStyle.css" rel="stylesheet" />
+    <link href="../Images/supplement-icon-14.jpg" rel="icon" />
+    <title>ModifyAcc</title>
+</head>
+<body>
+    <nav class="navbar navbar-default" id="navBar">
+        <div class="container-fluid">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div id="redirect">
+                    <button id="Index" class="btn btn-link navbar-btn">Vratite se na pocetnu stranu</button>
+                    <button id="Back" class="btn btn-link navbar-btn">Vratite se na prethodnu stranu</button>
+                </div>
+                <div id="authentication">
+                    <input type="submit" class="btn btn-link navbar-btn" id="Logout" value="Odjavi se" />
+                </div>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <h1>Izmenite nalog</h1>
+    <form>
+        <label>Korisnicko ime</label>
+        <input type="text" name="username" disabled />
+        <br />
+        <label class="Greska" id="username"></label>
+        <br />
+        <label>Lozinka</label>
+        <input type="password" name="passw" />
+        <br />
+        <label class="Greska" id="password"></label>
+        <br />
+        <label>Ime</label>
+        <input type="text" name="firstName" />
+        <br />
+        <label class="Greska" id="firstName"></label>
+        <br />
+        <label>Prezime</label>
+        <input type="text" name="lastName" />
+        <br />
+        <label class="Greska" id="lastName"></label>
+        <br />
+        <label>Pol</label>
+        <br />
+        <input type="radio" name="gender" value="M" />
+        <label>Musko</label>
+        <input type="radio" name="gender" value="F" />
+        <label>Zensko</label>
+        <input type="radio" name="gender" value="O" />
+        <label>Nesto drugo</label>
+        <br />
+        <label>Email</label>
+        <input type="email" name="emailAddress" />
+        <br />
+        <label class="Greska" id="email"></label>
+        <br />
+        <label>Datum rodjenja</label>
+        <input type="date" name="dateOfBirth" />
+        <br />
+        <label class="Greska" id="date"></label>
+        <br />
+        <input type="submit" class="btn btn-default" value="Izmeni" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/LoadFitnessCenters.js"></script>
+    <script src="../Scripts/RedirectAuthentication.js"></script>
+    <script src="../Scripts/RedirectUserFunctions.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/IndexStyle.css" rel="stylesheet" />
+    <link href="../Content/DefaultStyle.css" rel="stylesheet" />
+    <link rel="icon" href="../Images/supplement-icon-14.jpg"/>
+    <title>Index</title>
+</head>
+<body>
+    <nav class="navbar navbar-default" id="navBar">
+        <div class="container-fluid">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div id="redirect">
+                    <a class="navbar-brand" id="message"></a>
+                    <input type="submit" class="btn btn-link navbar-btn" id="Info" value="O korisniku" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="FormerTraining" value="Zavrseni treninzi" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="Trainings" value="Predstojeci treninzi" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="RegisterCoach" value="Registruj trenera" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="OwnersFitnessCenters" value="Moji fitnes centri" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="ListCoaches" value="Lista mojih trenera" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="Comments" value="Komentari" />
+                </div>
+                <div id="authentication">
+                    <input type="submit" class="btn btn-link navbar-btn" id="Register" value="Registruj se" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="Login" value="Prijavi se" />
+                    <input type="submit" class="btn btn-link navbar-btn" id="Logout" value="Odjavi se" />
+                </div>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div id="container">
+        <div id="Filter">
+            <fieldset>
+                <h3>Pretraga i sortiranje</h3>
+                <form action="#" name="Search">
+                    <label>Naziv</label>
+                    <input type="text" name="name" />
+                    <br />
+                    <label>Adresa</label>
+                    <input type="text" name="address" />
+                    <br />
+                    <label>Minimalna godina otvaranja</label>
+                    <input type="number" name="yearMin" />
+                    <br />
+                    <label>Maximalna godina otvaranja</label>
+                    <input type="number" name="yearMax" />
+                    <br />
+                    <input type="submit" class="btn btn-default" value="Pretrazi" />
+                </form>
+                <br />
+                <div id="Sort">
+                    <label>Sortiranje po nazivu</label>
+                    <br />
+                    <label>Rastuce</label>
+                    <input type="radio" name="sort" value="0" checked />
+                    <label>Opadajuce</label>
+                    <input type="radio" name="sort" value="1" />
+                    <br />
+                    <label>Sortiranje po adresi</label>
+                    <br />
+                    <label>Rastuce</label>
+                    <input type="radio" name="sort" value="2" />
+                    <label>Opadajuce</label>
+                    <input type="radio" name="sort" value="3" />
+                    <br />
+                    <label>Sortiranje po godini otvaranja</label>
+                    <br />
+                    <label>Rastuce</label>
+                    <input type="radio" name="sort" value="4" />
+                    <label>Opadajuce</label>
+                    <input type="radio" name="sort" value="5" />
+                </div>
+                <br />
+                <input type="submit" class="btn btn-default" name="ClearSearchAndSort" value="Clear" />
+            </fieldset>
+        </div>
+        <div id="second">
+            <div id="title">
+                <h1>Teretane i fitnes centri</h1>
+            </div>
+            <div id="FitnessCenterTable"></div>
+        </div>
+    </div>
+</body>
+</html>

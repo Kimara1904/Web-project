@@ -1,0 +1,5 @@
+EUROSPORT1;EUROSPORT;Vodna;9;Sremska Mitrovica;22000;1977;pera;1500;10000;150;200;500;False
+Non Stop2;Non Stop;Narodnih Heroja;1;Novi Sad;21000;2015;mikana;2000;20000;250;300;700;False
+DigniMe414;DigniMe;Balzakova;70;Novi Sad;21000;2022;mikana;1000;10000;100;150;300;True
+Body and pump6278;Body and pump;Milana Premasunca;63;Jagodina;35000;2019;pera;1500;9500;500;800;1000;False
+Digni mos to1809;Digni mos to;Nikola Tesla;5;Beograd;11000;2014;mikana;1400;5000;750;900;1100;False

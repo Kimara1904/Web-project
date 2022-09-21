@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/AddAndModifyFitnessCenter.js"></script>
+    <script src="../Scripts/ComebackOnIndex.js"></script>
+    <script src="../Scripts/RedirectAuthentication.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/DefaultStyle.css" rel="stylesheet" />
+    <link href="../Images/supplement-icon-14.jpg" rel="icon" />
+    <title>AddModifyFitnessCenter</title>
+</head>
+<body>
+    <nav class="navbar navbar-default" id="navBar">
+        <div class="container-fluid">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div id="redirect">
+                    <a class="navbar-brand" id="message"></a>
+                    <button id="Index" class="btn btn-link navbar-btn">Vratite se na pocetnu stranu</button>
+                    <button id="Back" class="btn btn-link navbar-btn">Vratite se na prethodnu stranu</button>
+                </div>
+                <div id="authentication">
+                    <input type="submit" class="btn btn-link navbar-btn" id="Logout" value="Odjavi se" />
+                </div>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <h2 id="Title"></h2>
+    <div>
+        <form id="Action">
+            <label>Naziv fitnes centra</label>
+            <input type="text" name="name" />
+            <br />
+            <label class="Greska" id="name"></label>
+            <br />
+            <fieldset>
+                <h3>Adresa:</h3>
+                <label>Ulica</label>
+                <input type="text" name="street" />
+                <br />
+                <label class="Greska" id="street"></label>
+                <br />
+                <label>Broj</label>
+                <input type="number" name="num" />
+                <br />
+                <label class="Greska" id="num"></label>
+                <br />
+                <label>Mesto</label>
+                <input type="text" name="place" />
+                <br />
+                <label class="Greska" id="place"></label>
+                <br />
+                <label>Postanski broj</label>
+                <input type="number" name="postcode" />
+                <br />
+                <label class="Greska" id="postcode"></label>
+            </fieldset>
+            <br />
+            <label>Godina otvaranja fitness centra</label>
+            <input type="number" name="yearOfOpening" />
+            <br />
+            <label class="Greska" id="yearOfOpening"></label>
+            <br />
+            <label>Cena mesecne clanarine</label>
+            <input type="number" name="monthlyMembership" step="0.01" />
+            <br />
+            <label class="Greska" id="monthlyMembership"></label>
+            <br />
+            <label>Cena godisnje clanarine</label>
+            <input type="number" name="yearlyMembership" step="0.01" />
+            <br />
+            <label class="Greska" id="yearlyMembership"></label>
+            <br />
+            <label>Cena jednog treninga</label>
+            <input type="number" name="oneTraining" step="0.01" />
+            <br />
+            <label class="Greska" id="oneTraining"></label>
+            <br />
+            <label>Cena jednog grupnog treninga</label>
+            <input type="number" name="groupTraining" step="0.01" />
+            <br />
+            <label class="Greska" id="groupTraining"></label>
+            <br />
+            <label>Cena jednog treninga sa personalnim trenerom</label>
+            <input type="number" name="withPersonalCoach" step="0.01" />
+            <br />
+            <label class="Greska" id="withPersonalCoach"></label>
+            <br />
+            <input type="submit" class="btn btn-default" name="Action" value="" />
+        </form>
+    </div>
+</body>
+</html>

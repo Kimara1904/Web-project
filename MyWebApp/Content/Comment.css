@@ -1,0 +1,29 @@
+﻿hr {
+    border-color: #0c243c
+}
+
+pre {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #0c243c;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+input[type=range] {
+    width: 321px;
+}
+
+.ratelabel{
+    margin-right: 65.5px
+}
+
+textarea {
+    color: #0c243c;
+    background-color: #c9d1d5;
+    width: 500px;
+    height: 250px
+}
+
+#AddComments{
+    margin-left: 2px;
+}

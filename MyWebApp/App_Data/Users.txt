@@ -1,0 +1,10 @@
+pera;pera123;Petar;Petrovic;M;pera@eurosport.com;1975/06/10;OWNER;2;EUROSPORT1;Body and pump6278
+cimcim;cimcim;Cicmil;Okanovic;M;cicmil@gmail.com;2000/03/14;CUSTOMER;4;Yoga za iskusne2;Dead Lift1;Yoga za pocetnike1;Hiit trening3
+tami;tamic;Tamara;Stankovic;F;tamarastankovic@hotmail.com;2000/03/17;COACH;8;Yoga za pocetnike1;Yoga za iskusne2;Dead Lift1;fdsfdssfsdf272042;fdsfdssfsdf352836;fdsfdssfsdf943064;Benc488358;sadasda903221;EUROSPORT1;False
+mikana;m1ka;Milanka;Mikic;F;milka@nonstopfitness.rs;1998/04/05;OWNER;6;Non Stop2;Digni.Me152;DigniMe6990;DigniMe4415;DigniMe414;Digni mos to1809
+sima;sima;Sima;Simic;O;sima@gmail.com;1998/10/02;CUSTOMER;3;Yoga za pocetnike1;Benc488358;Bicikl874099
+krki;kosija;Srdjan;Komadina;M;krki@gmail.com;2000/08/27;COACH;1;Bicikl874099;Non Stop2;False
+zivka;zivka;Zivana;Zivkovic;F;zivka@gmail.com;2000/04/05;CUSTOMER;1;Yoga za pocetnike1
+luka;luka;Luka;Markovic;M;luka@gmail.com;2005/07/26;COACH;2;Cucnjevi sa tegovima816438;Hiit trening3;EUROSPORT1;False
+lazar;laki;Lazar;Spasic;M;lakikavasaki@gmail.com;2003/10/31;COACH;1;Cardio1106;Body and pump6278;False
+ukisuzuki;suzi=uki;Uros;Maletic;M;uki@gmail.com;2001/06/01;COACH;0;Digni mos to1809;False
